@@ -6,11 +6,11 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Container(
       padding: new EdgeInsets.only(
-          top: MediaQuery
-              .of(context)
-              .padding
-              .top,
-          right: 5.0,
+        top: MediaQuery
+            .of(context)
+            .padding
+            .top,
+        right: 5.0,
       ),
       child: new Row(
         children: [
@@ -29,9 +29,9 @@ class CustomAppBar extends StatelessWidget {
                     'MENU',
                     textAlign: TextAlign.center,
                     style: const TextStyle(
-                      fontSize: 21.0,
-                      fontFamily: 'Dosis',
-                      fontWeight: FontWeight.w600
+                        fontSize: 21.0,
+                        fontFamily: 'Dosis',
+                        fontWeight: FontWeight.w600
                     )),
               ),
             ],
